@@ -4,6 +4,6 @@ public enum Gender {
     MALE,
     FEMALE,
     BISEXUAL,
-    TRANSFENDER,
+    TRANSGENDER,
     QUEER;
 }
