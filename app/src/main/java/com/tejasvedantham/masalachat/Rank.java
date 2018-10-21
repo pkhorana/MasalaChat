@@ -45,7 +45,7 @@ public class Rank extends AppCompatActivity {
                 for (int i = 0; i < ids.length; i++) {
                     EditText rank = (EditText) findViewById(ids[i]);
                     Integer rankInt = Integer.parseInt(rank.getText().toString());
-                    myProfile.setResumeArray(rankInt, arrays[i]);
+                    myProfile.setResumeArray(rankInt - 1, arrays[i]);
                 }
 
                 FirebaseDatabase.getInstance().getReference("Profile").child("resumeArray").
