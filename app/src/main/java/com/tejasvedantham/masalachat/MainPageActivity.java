@@ -37,6 +37,7 @@ public class MainPageActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main_page, menu);
         return true;
+        
     }
 
     @Override
