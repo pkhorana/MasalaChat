@@ -28,6 +28,7 @@ public class MainPageActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase.getInstance().getReference("Profile").setValue(new Profile("Tejas", 18));
+                FirebaseDatabase.getInstance().getReference("Profile2").setValue(new Profile("Pranav", 18));
             }
         });
     }
